@@ -1,0 +1,909 @@
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.margin0 {
+  margin: 0;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(245, 245, 247, 0.8);
+  gap: 24px;
+  padding: 0 8px;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  gap: 24px;
+}
+.apple-logo-small {
+  padding: 8px;
+}
+.menu-icon {
+  display: none;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  background: #fff;
+  padding: 16px;
+}
+.txt {
+  flex-wrap: nowrap;
+}
+.sec123 {
+  gap: 12px;
+  flex-direction: column;
+  display: flex;
+}
+.page1 {
+  background-image: url(./photo1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 692px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.frame1,
+.frame1-1 {
+  display: flex;
+  flex-direction: column;
+  width: 405px;
+  gap: 20px;
+  position: absolute;
+  top: 55px;
+  bottom: 465px;
+}
+.txt1,
+.txt2 {
+  gap: 16px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.txt1-1 {
+  color: #f5f5f7;
+  text-align: center;
+  font-family: Inter;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
+.txt1-2 {
+  color: #f5f5f7;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+}
+.button1-1 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 999px;
+  background: #0071e3;
+  padding: 12px 20px;
+  margin: 0;
+}
+.button1-2 {
+  color: #2997ff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+  padding: 12px 20px;
+  margin: 0;
+}
+.page2 {
+  background-image: url(./photo2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 692px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.button2-1 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 999px;
+  background: #fff;
+  padding: 12px 20px;
+  margin: 0;
+}
+.button2-2 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 999px;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  margin: 0;
+}
+.page3 {
+  background-image: url(./photo3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 692px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.frame2 {
+  display: flex;
+  flex-direction: column;
+  width: 405px;
+  gap: 20px;
+  align-items: center;
+  position: absolute;
+  top: 446px;
+  justify-content: flex-end;
+}
+.txt2-1 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
+.txt2-2 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+.button3-1 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 999px;
+  background: #0071e3;
+  padding: 12px 20px;
+  margin: 0;
+}
+.button3 {
+  width: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec456 {
+  gap: 12px;
+  flex-direction: column;
+  display: flex;
+  padding: 12px;
+}
+.sec4 {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+}
+.page4 {
+  background-image: url(./photo4.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  height: 580px;
+}
+.hello-apple-intelligence {
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  width: 169px;
+  position: absolute;
+  bottom: 53px;
+}
+.frame3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  position: absolute;
+  top: 58px;
+}
+.txt3 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+}
+.txt3-1 {
+  width: 160px;
+  height: 33px;
+}
+.txt3-2 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+.button4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+}
+.button4-1 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 999px;
+  background: #0071e3;
+  padding: 10px 16px;
+  margin: 0;
+}
+.button4-2 {
+  color: #2997ff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+  padding: 10px 20px;
+  margin: 0;
+}
+.page5 {
+  background-image: url(./photo5.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  height: 580px;
+}
+.frame4 {
+  display: flex;
+  flex-direction: column;
+  width: 322px;
+  gap: 10px;
+  align-items: center;
+  position: absolute;
+  bottom: 58px;
+}
+.txt4 {
+  color: #f5f5f7;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.txt4-1 {
+  color: #f5f5f7;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
+.sec5 {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+}
+.page6 {
+  background-image: url(./photo6.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  height: 580px;
+}
+.frame5 {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  gap: 16px;
+  align-items: center;
+  position: absolute;
+  top: 58px;
+}
+.txt5 {
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  flex-direction: column;
+}
+.logo-txt {
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+}
+.apple-logo {
+  width: 26.353px;
+  height: 32px;
+}
+.txt5-1 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+}
+.txt5-2 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+.page7 {
+  background-image: url(./photo7.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 580px;
+}
+.frame6 {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  gap: 10px;
+  align-items: center;
+  position: absolute;
+  top: 48px;
+}
+.txt6 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.txt6-1 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
+.sec6 {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+}
+.page8 {
+  background-image: url(./photo8.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  height: 580px;
+}
+.frame7 {
+  display: flex;
+  flex-direction: column;
+  width: 322px;
+  gap: 16px;
+  align-items: center;
+  position: absolute;
+  top: 58.42px;
+}
+.button5 {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button5-1 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 999px;
+  background: #0071e3;
+  padding: 10px 16px;
+  margin: 0;
+}
+.page9 {
+  background-image: url(./photo9.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  height: 580px;
+}
+.scroll-area {
+  display: flex;
+  gap: 16px;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.movie {
+  min-width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.movie-button {
+  text-align: center;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 999px;
+  background: #f5f5f7;
+  padding: 12px 20px;
+  margin: 0;
+  width: 100px;
+  position: absolute;
+  top: 566px;
+  left: 70px;
+}
+.pic1 {
+  background-image: url(./pic1.jpg);
+}
+.pic2 {
+  background-image: url(./pic2.jpg);
+}
+.pic3 {
+  background-image: url(./pic3.jpg);
+}
+.pic4 {
+  background-image: url(./pic4.jpg);
+}
+.pic5 {
+  background-image: url(./pic5.jpg);
+}
+.pic6 {
+  background-image: url(./pic6.jpg);
+}
+.pic7 {
+  background-image: url(./pic7.jpg);
+}
+.pic8 {
+  background-image: url(./pic8.jpg);
+}
+.pic9 {
+  background-image: url(./pic9.jpg);
+}
+.circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: grey;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 12px;
+}
+.circle:hover {
+  background-color: #000;
+}
+.small-scroll {
+  display: flex;
+  gap: 16px;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+}
+.entertainment {
+  min-width: 417px;
+  height: 236px;
+  scroll-snap-align: center;
+  justify-content: end;
+  position: relative;
+  animation: s 40s linear infinite;
+  background-size: cover;
+  background-position: center;
+}
+.small-scroll:hover .entertainment {
+  animation-play-state: paused;
+}
+@keyframes s {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.ad1 {
+  background-image: url(./ad1.jpg);
+}
+.ad2 {
+  background-image: url(./ad2.jpg);
+}
+.ad3 {
+  background-image: url(./ad3.jpg);
+}
+.ad4 {
+  background-image: url(./ad4.jpg);
+}
+.ad5 {
+  background-image: url(./ad5.jpg);
+}
+.ad6 {
+  background-image: url(./ad6.jpg);
+}
+.ad7 {
+  background-image: url(./ad7.jpg);
+}
+.ad8 {
+  background-image: url(./ad8.jpg);
+}
+.ad9 {
+  background-image: url(./ad9.jpg);
+}
+.ad-button {
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 999px;
+  background: #f5f5f7;
+  padding: 8px 15px;
+  margin: 0;
+  width: 85px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+.footer {
+  background-color: #fff;
+  position: relative;
+  height: 56px;
+}
+.play-button {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background: #d2d2d7;
+  padding: 6px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .nav {
+    justify-content: space-between;
+  }
+  .items {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .txt {
+    padding: 0 150px;
+  }
+  .page1 {
+    background-image: url(./tab.pic.1.jpg);
+    height: 650px;
+  }
+  .frame1,
+  .frame1-1 {
+    gap: 16px;
+    bottom: 436px;
+    width: 390px;
+  }
+  .txt1,
+  .txt2 {
+    gap: 10px;
+  }
+  .txt1-1,
+  .txt2-1 {
+    font-size: 42px;
+  }
+  .txt1-2,
+  .txt2-2 {
+    font-size: 22px;
+  }
+  .page2 {
+    background-image: url(./tab.pic.2.jpg);
+    height: 650px;
+  }
+  .frame2 {
+    gap: 16px;
+    bottom: 75px;
+    width: 390px;
+  }
+  .page3 {
+    height: 650px;
+  }
+  .page4,
+  .page5,
+  .page6,
+  .page9 {
+    height: 490px;
+  }
+  .frame3 {
+    gap: 10px;
+    top: 36px;
+  }
+  .txt3 {
+    gap: 10px;
+  }
+  .txt3-1 {
+    width: 150px;
+  }
+  .txt3-2 {
+    font-size: 18px;
+  }
+  .button4 {
+    gap: 12px;
+  }
+  .button4-1 {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  .button4-2 {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+  .hello-apple-intelligence {
+    bottom: 33px;
+  }
+  .frame4 {
+    bottom: 45px;
+  }
+  .txt4-1,
+  .txt6-1 {
+    font-size: 30px;
+  }
+  .frame5 {
+    gap: 5px;
+  }
+  .txt5 {
+    gap: 3px;
+  }
+  .logo-txt {
+    gap: 4px;
+  }
+  .apple-logo {
+    width: 22px;
+    height: 27px;
+  }
+  .txt5-1 {
+    font-size: 28px;
+  }
+  .txt5-2 {
+    font-size: 13px;
+    margin-bottom: 2px;
+  }
+  .page7 {
+    background-image: url(./tab.pic.5.jpg);
+    height: 490px;
+  }
+  .frame6 {
+    top: 35px;
+  }
+  .txt6 {
+    gap: 0;
+  }
+  .page8 {
+    background-image: url(./tab.pic.4.jpg);
+    height: 490px;
+  }
+  .frame7 {
+    gap: 10px;
+    top: 48.42px;
+  }
+  .button5-1 {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  .movie {
+    min-width: 689px;
+    height: 368px;
+  }
+  .movie-button {
+    font-size: 14px;
+    padding: 8px 14px;
+    width: 90px;
+    top: 305px;
+    left: 30px;
+  }
+  .entertainment {
+    min-width: 286px;
+    height: 161px;
+  }
+  .ad-button {
+    font-size: 11px;
+    padding: 5px 8px;
+    width: 75px;
+    bottom: 9px;
+    right: 9px;
+  }
+}
+@media (max-width: 390px) {
+  .txt {
+    padding: 0 10px;
+  }
+  .page1 {
+    background-image: url(./mobile.pic.1.jpg);
+    height: 500px;
+  }
+  .frame1 {
+    bottom: 0;
+    top: 350px;
+    gap: 10px;
+  }
+  .txt1,
+  .txt2 {
+    gap: 5px;
+  }
+  .txt1-1,
+  .txt2-1 {
+    font-size: 30px;
+  }
+  .txt1-2,
+  .txt2-2 {
+    font-size: 18px;
+  }
+  .buttons {
+    gap: 12px;
+  }
+  .button1-1,
+  .button2-1,
+  .button1-2,
+  .button2-2,
+  .button3-1 {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  .page2 {
+    background-image: url(./mobile.pic.2.jpg);
+    height: 500px;
+  }
+  .frame1-1 {
+    top: 36px;
+    gap: 10px;
+  }
+  .page3 {
+    height: 500px;
+  }
+  .frame2 {
+    bottom: 50px;
+  }
+  .sec456 {
+    padding: 12px 0px;
+  }
+  .sec4,
+  .sec5,
+  .sec6 {
+    flex-direction: column;
+  }
+  .page4,
+  .page5,
+  .page6,
+  .page7,
+  .page8,
+  .page9 {
+    height: 500px;
+    width: 390px;
+  }
+  .hello-apple-intelligence {
+    bottom: 30px;
+  }
+  .movie {
+    min-width: 495px;
+    height: 264px;
+  }
+  .movie-button {
+    font-size: 8px;
+    padding: 6px 8px;
+    width: 60px;
+    top: 225px;
+    left: 18px;
+  }
+  .entertainment {
+    min-width: 238px;
+    height: 138px;
+  }
+  .ad-button {
+    font-size: 9px;
+    padding: 3px 6px;
+    width: 55px;
+    bottom: 7px;
+    right: 7px;
+  }
+}
