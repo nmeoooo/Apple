@@ -577,11 +577,15 @@ a {
 .circle:hover {
   background-color: #000;
 }
+.pls {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
 .small-scroll {
   display: flex;
   gap: 16px;
-  overflow: scroll;
-  scroll-snap-type: x mandatory;
+  animation: s 10s linear infinite;
 }
 .entertainment {
   min-width: 417px;
@@ -589,7 +593,6 @@ a {
   scroll-snap-align: center;
   justify-content: end;
   position: relative;
-  animation: s 40s linear infinite;
   background-size: cover;
   background-position: center;
 }
