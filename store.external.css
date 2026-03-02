@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background: #F5F5F7;
 }
 .margin0 {
   margin: 0;
@@ -95,7 +96,6 @@ body {
   margin: 0;
 }
 .caption2-1 {
-  color: #1d1d1f;
   font-family: Inter;
   font-size: 14px;
   font-weight: 700;
@@ -114,10 +114,11 @@ body {
 }
 .platters-container {
   display: flex;
-  padding: 0 140px;
+  padding: 0px 140px;
   align-items: center;
-  gap: 28px;
+  gap: 16px;
   justify-content: center;
+  align-self: stretch;
 }
 .platter {
   display: flex;
@@ -128,6 +129,7 @@ body {
 }
 .platter-image {
   height: 78px;
+  width: 120px;
 }
 .platter-name {
   justify-content: center;
@@ -186,7 +188,11 @@ body {
   line-height: 32px; /* 133.333% */
 }
 .cards-container1,
-.cards-container2 {
+.cards-container2,
+.cards-container3,
+.cards-container4,
+.cards-container5,
+.cards-container6 {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -235,7 +241,6 @@ body {
   margin: 0;
 }
 .txt1-2 {
-  color: #1d1d1f;
   font-family: Inter;
   font-size: 26px;
   font-style: normal;
@@ -245,7 +250,6 @@ body {
   margin: 0;
 }
 .txt1-3 {
-  color: #1d1d1f;
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
@@ -263,8 +267,10 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
-  background-image: url(./store.page3-1.jpg);
   scroll-snap-align: center;
+}
+.card2-1 {
+  background-image: url(./store.page3-1.jpg);
 }
 .txt-frame2 {
   display: flex;
@@ -316,10 +322,12 @@ body {
 }
 .txt-frame3 {
   display: flex;
-  justify-content: baseline;
+  justify-content: center;
   flex-direction: column;
   gap: 6px;
   width: 257px;
+  height: 112px;
+  align-items: stretch;
 }
 .txt3-1 {
   color: #b64400;
@@ -329,18 +337,18 @@ body {
   font-weight: 700;
   line-height: 16px; /* 133.333% */
   margin: 0;
+  height: 15px;
 }
 .txt3-2 {
-  color: #1d1d1f;
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 20px; /* 111.111% */
   margin: 0;
+  height: 40px;
 }
 .txt3-3 {
-  color: #1d1d1f;
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
@@ -354,4 +362,10 @@ body {
   overflow: scroll;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
+}
+.card2-2 {
+  background-image: url(./store.page4-1.jpg);
+}
+.txt-frame2-1 {
+  width: 326px;
 }
